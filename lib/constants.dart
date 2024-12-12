@@ -1,1 +1,1 @@
-const String baseUrl = "http://192.168.170.242:3000";
+const String baseUrl = "https://iotflower.northeurope.cloudapp.azure.com/iotflower/api/v1/";

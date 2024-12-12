@@ -1,9 +1,11 @@
 // main.dart
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
-import 'pages/schedule_page.dart';
+import 'pages/schedules_page.dart';
 import 'pages/manual_control_page.dart';
 import 'pages/dashboard_page.dart';
+import 'pages/newschedule_page.dart';
+import 'pages/log_page.dart';
 
 void main() => runApp(IotIrrigationApp());
 
@@ -26,9 +28,11 @@ class IotIrrigationApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/schedule': (context) => SchedulePage(),
         '/manual': (context) => ManualControlPage(),
         '/dashboard': (context) => DashboardPage(),
+        '/newschedule': (context) => NewschedulePage(),
+         '/logs': (context) => LogPage(),
+        '/schedules': (context) => SchedulePage(),
       },
     );
   }

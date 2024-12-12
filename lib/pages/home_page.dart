@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
                 context,
                 'Schedule Watering',
                 Icons.schedule,
-                '/schedule',
+                '/newschedule',
               ),
               _buildNavigationButton(
                 context,
@@ -38,6 +38,16 @@ class HomePage extends StatelessWidget {
                 Icons.dashboard,
                 '/dashboard',
               ),
+              _buildNavigationButton(
+                context,
+                'View Logs',
+                Icons.list, 
+                '/logs'),
+              _buildNavigationButton(
+                context, 
+                'View Schedules', 
+                Icons.event_note, 
+                '/schedules'),
             ],
           ),
         ),
